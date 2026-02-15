@@ -33,7 +33,7 @@ Three distinct machine learning models were trained on the TF-IDF feature matrix
 * **Contextual Overlap:** The model will struggle with edge-case articles where vocabularies heavily intersect (e.g., politicians debating sports funding).
 * **Geographic Bias:** Trained entirely on British news, the model heavily weights terms like "Parliament" and "Cricket". It will likely misclassify American news relying on terms like "Congress" and "Baseball".
 
-## 🚀 How to Run the Code
+## How to Run the Code
 1. Clone this repository to your local machine.
 2. Install the required dependencies using the provided `requirements.txt` file:
    ```bash
